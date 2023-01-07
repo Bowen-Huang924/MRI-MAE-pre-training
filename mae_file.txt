@@ -1,0 +1,6 @@
+/home/lthpc/xx/华西合作项目/dataset_processing/glioma_seg/tb/0008870780/img/8.png
+/home/lthpc/xx/华西合作项目/dataset_processing/glioma_seg/tb/0011778122-b/img/28.png
+/home/lthpc/xx/华西合作项目/dataset_processing/glioma_seg/tb/0016985911/img/9.png
+/home/lthpc/xx/华西合作项目/dataset_processing/glioma_seg/tb/0017196923/img/8.png
+/home/lthpc/xx/华西合作项目/dataset_processing/glioma_seg/tb/0018230443/img/11.png
+/home/lthpc/xx/华西合作项目/dataset_processing/glioma_seg/tb/0035708338/img/8.png

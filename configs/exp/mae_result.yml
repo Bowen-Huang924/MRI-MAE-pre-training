@@ -1,0 +1,30 @@
+# experience name
+save_root: /home/lthpc/xx/glioma-python/Checkpoints/画图/MAE
+exp_name: MAE
+
+# model
+model_type: MAE_TransResUnet18V2
+pretrain_model:
+checkpoint: /home/lthpc/xx/glioma-mae/Checkpoints/MAE_pretrain/checkpoints/last.pt
+
+# loss
+loss_type: SegLoss
+
+# data_loader
+dataset_type: Mae_Dataset
+data_root: None
+batch_size: 1
+num_workers: 4
+mean: [0.154, 0.154, 0.154]
+var: [0.202, 0.202, 0.202]
+
+# optimizer
+lr: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+
+# train_strategy
+epochs: 1000
+check_interval: 2
+warmup_steps: 200
+lr_decay_steps: [140, 180]
